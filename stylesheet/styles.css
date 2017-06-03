@@ -5,6 +5,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: sans-serif;
+}
+
 /* Remove margins and padding from the list */
 ul {
 	margin: 0;
@@ -98,7 +102,7 @@ input {
 .addButton {
 	padding: 10px;
 	width: 25%;
-	background-color: #d9d9d9;
+	background-color: #afafaf;
 	color: #555;
 	float: left;
 	text-align: center;

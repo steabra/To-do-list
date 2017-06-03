@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
 	<title>ToDo</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="stylesheet/styles.css">
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="stylesheet/styles.css"/>
 </head>
 <body>
 
 	<div id="header" class="header">
 		<h1>Todo List</h1>
-		<input type="text" id="myInput" placeholder="+ Add task..." onkeypress="handle(event)">
-		<span onclick="newElement()" class="addButton">Add</span>
+		<input type="text" id="myInput" placeholder="+ Add task..." onkeypress="handle(event)"/>
+		<input class="addButton" onclick="newElement()" type="submit" value="Add"/>
 	</div>
 
 	<ul id="list"></ul>
